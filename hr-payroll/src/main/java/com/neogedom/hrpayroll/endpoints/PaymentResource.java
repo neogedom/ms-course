@@ -11,7 +11,7 @@ import com.neogedom.hrpayroll.entities.Payment;
 import com.neogedom.hrpayroll.services.PaymentService;
 
 @RestController
-@RequestMapping(value = "/payment")
+@RequestMapping(value = "/payments")
 public class PaymentResource {
     
     @Autowired
